@@ -69,7 +69,9 @@ jobs:
               echo "Checking: $file"
               
               # Extract source URLs from the file
-              SOURCES=$(jq -r '
+              # Emit one compact JSON object per line so the line-oriented loop below
+              # can parse each source object independently.
+              SOURCES=$(jq -c '
                 .. | objects | 
                 select(.source? != null) | 
                 .source | 

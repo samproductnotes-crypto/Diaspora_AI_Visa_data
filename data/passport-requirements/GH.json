@@ -3030,7 +3030,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "UK Standard Visitor Visa required for Ghanaian citizens. Apply online via GOV.UK. Standard Visitor fee: £135 for up to 6 months. Usual decision time: 3 weeks after application, identity verification and supporting documents; some cases can take longer.",
+        "notes": "UK Standard Visitor Visa required for Ghanaian citizens. Apply online via gov.uk. Processing time: usually 3 weeks after applying online, proving identity and providing documents. Standard Visitor visa fee: £135 for up to 6 months.",
         "processingDays": "3 weeks",
         "cost": {
           "amount": 135,
@@ -3065,15 +3065,15 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2026-10-07T00:20:00+03:00",
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
       "source": {
         "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
         "governmentDomain": true,
         "accessedDate": "2026-10-07",
-        "verificationPath": "Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees; How long it takes to get a decision",
-        "exactQuote": "Standard Visitor visa | £135 | 6 months; you’ll usually get a decision on your visa within 3 weeks.",
+        "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees / How long it takes to get a decision",
+        "exactQuote": "Standard Visitor visa | £135 | 6 months; usually get a decision on your visa within 3 weeks.",
         "confidence": "verified",
-        "notes": "This source verifies only the six-month Standard Visitor fee and usual decision time."
+        "notes": "Verification scope: Standard Visitor fee and normal decision time only. Supporting processing guidance: https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk"
       }
     },
     {

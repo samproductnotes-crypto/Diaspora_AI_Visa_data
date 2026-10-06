@@ -85,7 +85,7 @@
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic visa (e-Visa) required. Apply online before travel. Processing typically takes 3-7 business days."
+        "notes": "Conditional 60-day UAE visa-on-arrival route available to ordinary passport holders (and family members) who hold a valid visa, residence permit, or US Green Card issued by the US, EU, or UK, or a valid residence permit issued by Japan, South Korea, Australia, Canada, Singapore, or New Zealand. Passport must be valid for at least 6 months; the 60-day visa is non-extendable."
       },
       "documents": {
         "passport": {
@@ -111,10 +111,10 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-06",
+        "source": "https://icp.gov.ae/en/services-details/?serviceid=68f5bcdb8c587a0011cb16d5"
       },
-      "lastUpdated": "2026-01-19T03:24:43.48"
+      "lastUpdated": "2026-10-06"
     },
     {
       "to": {

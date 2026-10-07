@@ -4,13 +4,13 @@
     "name": "Trinidad and Tobago"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 99,
-    "evisa": 39,
+    "evisa": 38,
     "visa_on_arrival": 26,
-    "visa_required": 34,
+    "visa_required": 35,
     "total": 198
   },
   "routes": [
@@ -2964,15 +2964,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "visa_required",
+        "type": "Standard Visitor visa",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Visa required for Trinidad and Tobago nationals visiting the United Kingdom. Standard Visitor applications are made online before travel."
       },
       "documents": {
         "passport": {
@@ -2997,11 +2997,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-10-07",
+        "source": "GOV.UK visa requirements for international carriers"
       },
-      "lastUpdated": "2026-01-19T04:16:09.561397"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://www.gov.uk/government/publications/uk-visa-requirements-list-for-carriers/uk-visa-requirements-for-international-carriers",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "GOV.UK > UK visa requirements for international carriers > Nationals of countries and territories who need a visa to enter or transit the UK",
+        "exactQuote": "Trinidad and Tobago",
+        "confidence": "verified",
+        "notes": "Scope limited to correcting the visitor-entry visa requirement. Transit exceptions are not changed."
+      }
     },
     {
       "to": {
